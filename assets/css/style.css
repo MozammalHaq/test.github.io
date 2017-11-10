@@ -1,0 +1,132 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    color: #6D6D6D;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.section-title h2 span {
+    color: #24A459;
+}
+/* --------------------- end section-title -----------------------*/
+.single-pricing-box {
+    border: 1px solid #aaa;
+    padding: 25px;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-pricing-box:hover {
+    border: 1px solid #24A459;
+    box-shadow: 0 0 30px #bbb;
+}
+.single-pricing-box h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.pricing-icon {
+    font-size: 45px;
+    margin-bottom: 30px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-pricing-box:hover .pricing-icon {
+    color: #24A459;
+}
+.pricing-icon img {
+    max-width: 65px; 
+    -webkit-transition: .3s; 
+    transition: .3s;
+}
+.single-pricing-box:hover .pricing-icon img {
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.pricing-list {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.pricing-list ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+    line-height: 1.8;
+}
+.pricing-list ul li:before {
+    font-family: 'FontAwesome';
+    content: "\f00c"; 
+    color: #24A459;
+    padding-right: 10px;
+}
+.pricing-list ul li.off:before {
+    content: "\f00d"; 
+    color: #F04B4B;
+}
+.pricing-list ul li {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.pricing-list ul li:hover {
+    padding-left: 5px;
+}
+.single-pricing-box h3.pricing-rate {
+    text-transform: none;
+}
+a.bordered-btn {
+    display: inline-block;
+    border: 1px solid #24A459;
+    padding: 10px 30px;
+    border-radius: 30px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #4E4E4E;
+}
+a.bordered-btn:hover{
+    background-color: #24A459;
+    color: #fff;
+}
+a.extra-hover {
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+a.extra-hover:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 30px #4D4D4D;
+    background-color: #fff;
+    color: #4E4E4E;
+}
