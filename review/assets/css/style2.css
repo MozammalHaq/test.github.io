@@ -1,0 +1,18 @@
+.cta-area:after {
+    border-radius: 0px;
+}
+.section-padding.pdt-0 {
+    padding-top: 0px;
+}
+.section-padding.pdb-0 {
+    padding-bottom: 0px;
+}
+.single-service-box:hover {
+    box-shadow: 0px 0 10px #DCF4F2;
+}
+/*------------------------------- end admission psd-------------*/
+
+
+.shaped-details a {
+    color: #10B6A7; 
+}
