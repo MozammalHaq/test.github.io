@@ -1,0 +1,200 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900|Ubuntu:300,300i,400,400i,500,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+body h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+a:hover { text-decoration: none }
+.hero-bg {
+    background-image: url(../img/hero-image.jpg);
+    height: 510px;
+    background-position: center center;
+    background-size: cover;
+    background-color: #F0F0F0;
+    background-repeat: no-repeat;
+    padding: 0 50px;
+}
+.pdlr-50 {
+    padding: 0 55px;
+}
+.plmr {
+    float: left;
+    margin-right: 15px;
+}
+.prml {
+    float: right;
+    margin-left: 15px;
+}
+.pdb-90 {
+    padding-bottom: 90px;
+}
+.life-style-bg-1 {background-image: url(../img/life-style-bg-1.jpg)}
+.life-style-bg-2 {background-image: url(../img/life-style-bg-2.jpg)}
+.life-style-bg-3 {background-image: url(../img/life-style-bg-3.jpg)}
+.life-style-bg-4 {background-image: url(../img/life-style-bg-4.jpg)}
+.life-style-bg-5 {background-image: url(../img/life-style-bg-5.jpg)}
+.life-style-bg-6 {background-image: url(../img/life-style-bg-6.jpg)}
+
+.post-image {
+    height: 280px;
+    background-position: center center;
+    background-size: cover;
+    background-color: #F0F0F0;
+    background-repeat: no-repeat;
+}
+.meta-all, a.meta-all {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+}
+a.meta-all {
+    display: inline-block;
+}
+/*-----------------------------*/
+.menu-logo {
+    margin-left: -15px;
+}
+.menu-logo img{
+    display: inline-block;
+    padding: 58px 0;
+}
+.menu {
+    margin-right: -15px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 60px 0px 60px 90px;
+    text-transform: uppercase;
+    color: #626262;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #000;
+}
+/*-------------------------------*/
+.photo-content p.meta-all {
+    margin-top: 0px;
+}
+.cta-area {
+    text-align: center;
+    background-color: #F0F0F0;
+    margin-bottom: 90px;
+    padding: 70px 0;
+}
+.cta-area h2 {
+    margin-top: 0px;
+    color: #333333;
+}
+.valid-email-form {
+    border-bottom: 1px solid #000000;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    height: 30px;
+}
+.valid-email-form input {
+    border: none;
+    background-color: transparent;
+}
+.valid-email-form input[type="email"] {
+    border: none;
+    height: 30px;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    padding: 5px;
+    
+}
+.valid-email-form input[type="submit"] {
+    position: absolute;
+    background-image: url(../img/submit-img.png);
+    content: "";
+    top: 0;
+    right: 0;
+    width: 10%;
+    background-repeat: no-repeat;
+    background-position:  center center;
+}
+.load-more-area a.load-more-btn {
+    display: inline-block;
+    padding: 20px 35px;
+    border: 1px solid #626262;
+    color: #626262;
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+.footer-area {
+    background-color: #F0F0F0;
+    padding: 35px 0;
+}
+
+.footer-menu ul, .social-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.footer-menu ul li, .social-links ul li{
+    display: inline-block;
+}
+.footer-menu ul li a {
+    display: block;
+    padding-right: 15px;
+    color: #000;
+    margin-top: 5px;
+}
+.social-links ul li a {
+    padding-left: 15px;
+    color: #707070;
+    font-size: 20px;
+}
+.social-links p {
+    color: #000;
+    display: inline-block;
+}
