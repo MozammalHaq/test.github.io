@@ -1,0 +1,119 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 100;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+
+.header-top-area {
+    background-color: #218AE6;
+    padding: 10px 0;
+}
+.header-top-area, .header-top-area a {
+    color: #fff;
+}
+.header-top-area, .header-top-area .text-right a {
+   padding-right: 30px;
+}
+.header-top-area, .text-right i.fa {
+   padding-right: 10px;
+}
+
+.header-area ul {
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+.header-area ul li {
+    display: inline-block;
+}
+.header-area ul li a{
+    display: block;
+    padding: 25px 15px;
+    text-transform: uppercase;
+    color: #333;
+    transition: .3s;
+    font-weight: 400;
+}
+.header-area ul li a:hover{
+    color: #218AE6;
+}
+.header-area ul li:last-child a{
+    padding-right: 0;
+}
+.header-area img {
+    padding: 17px 0;
+}
+.homepage-slides {
+    background-color: #218AE6;
+    color: #fff;
+    font-size: 17px;
+}
+.single-homepage-slide {
+    padding: 120px 0;
+}
+.homepage-slides h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.slide-btn {
+    font-weight: 400;
+    background-color: #F9CF25;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #333;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.slide-btn i.fa{
+    padding-left: 10px;
+}
+.homepage-slides .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.homepage-slides .owl-dots div {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px;
+}
+.homepage-slides .owl-dots div.active {
+    background-color: #F9CF25;
+}
