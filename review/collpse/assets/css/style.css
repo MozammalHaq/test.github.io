@@ -1,0 +1,82 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #858585;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 40px 0;
+}
+h2.section-sub-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+h2.section-sub-title span {
+    color: #00A2E2;
+}
+/*--------------Start Collapse Portion ---------------*/
+.style-faq {
+	min-height: 380px;
+    margin-top: 20px;
+}
+.style-faq .panel .panel-collapse .panel-body {
+    border: none;
+}
+.style-faq .panel-group .panel {
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 14px;
+}
+.style-faq .panel-default > .panel-heading {
+    border: none;
+    background: none;
+    padding: 0;
+}
+.style-faq .panel-group .panel .panel-heading h4 a {
+    display: block;
+    padding: 10px;
+}
+.style-faq .panel-group .panel .panel-heading h4 a i.fa {
+    float: right;
+    font-size: 20px;
+    line-height: 16px;
+    display: none;
+}
+.style-faq .panel .panel-heading h4 a[aria-expanded="true"] i.fa.fa-angle-down {
+    display: block;
+}
+.style-faq .panel .panel-heading h4 a[aria-expanded="false"] i.fa.fa-angle-up {
+    display: block;
+}
+/*------------------- section end-------------------*/
