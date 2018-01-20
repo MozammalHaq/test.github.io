@@ -1,0 +1,313 @@
+/* Large Layout: 1400px. */
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .slicknav_menu {
+        display: none;
+    }
+
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-foot .social-links a,
+    .leniar-page a {
+        margin-right: 5px;
+    }
+    .footer-area p,
+    .footer-area a {
+        font-size: 13px;
+    }
+    .single-foot ul i.fa {
+        width: 15px;
+    }
+    .single-foot ul li a span {
+        margin-left: 15px;
+    }
+    .slicknav_menu {
+        display: none;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home-form {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    a.edutune-btn,
+    button.edutune-btn {
+        margin-bottom: 30px;
+    }
+    .rounded-box {
+        margin-bottom: 30px;
+    }
+    .latest-notice {
+        margin-bottom: 0px;
+    }
+    .courses-details.pdt-30 {
+        padding-top: 0;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .cta-area .video-paly {
+        padding: 80px 0;
+    }
+    .section-title,
+    .section-title h2 {
+        margin-bottom: 40px;
+    }
+    .event-bg,
+    .blog-bg {
+        height: 300px;
+    }
+    .single-foot {
+        margin-bottom: 30px;
+    }
+    .footer-area .col-lg-8 .col-lg-4:nth-child(2) li,
+    .footer-area .col-lg-8 .col-lg-4:nth-child(3) li {
+        margin-bottom: 0px;
+    }
+    .footer-area h5,
+    .footer-area .foot-logo {
+        margin-bottom: 10px;
+    }
+    .single-foot ul li a span {
+        display: block;
+    }
+    .footer-area {
+        padding: 40px 0;
+    }
+    .footer-area .col-lg-4:last-child .single-foot {
+        margin-bottom: 0;
+    }
+    .mainmenu ul li {
+        margin-left: 12px;
+    }
+    .slicknav_menu {
+        display: none;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .home-form {
+        margin: 50px 0;
+    }
+    .rounded-box.home-form {
+        padding: 10px;
+    }
+    .hero-area h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    .hero-right h1 {
+        font-size: 22px;
+        margin-top: -15px;
+    }
+    a.edutune-btn,
+    button.edutune-btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+    .rounded-box {
+        margin-bottom: 30px;
+    }
+    .latest-notice {
+        margin-bottom: 0px;
+    }
+    .courses-details h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .courses-details.pdt-30 {
+        padding: 0;
+    }
+    .courses-details.pdt-30 a.edutune-btn {
+        margin-bottom: 30px;
+    }
+    .cta-area .video-paly {
+        padding: 50px 0;
+    }
+    .video-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        line-height: 50px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .section-title h2 {
+        margin-bottom: 18px;
+        font-size: 20px;
+    }
+    .section-title {
+        margin-bottom: 24px;
+    }
+    .latest-notice,
+    .latest-event,
+    .event-1,
+    .categori {
+        padding: 15px;
+    }
+    .feature-bg,
+    .course-bg {
+        height: 200px;
+    }
+    .single-event li a {
+        font-size: 13px;
+    }
+    .event-bg,
+    .blog-bg {
+        height: 250px;
+    }
+    .rounded-box h5 {
+        font-size: 18px;
+    }
+    .event-description {
+        padding: 10px;
+    }
+    .event-description p {
+        font-size: 12px;
+    }
+
+    .single-foot {
+        margin-bottom: 30px;
+    }
+    .footer-area .col-lg-8 .col-lg-4:nth-child(2) li,
+    .footer-area .col-lg-8 .col-lg-4:nth-child(3) li {
+        margin-bottom: 0px;
+    }
+    .footer-area h5,
+    .footer-area .foot-logo {
+        margin-bottom: 10px;
+    }
+    .single-foot ul li a span {
+        display: block;
+    }
+    .footer-area {
+        padding: 40px 0;
+    }
+    .footer-area .col-lg-4:last-child .single-foot {
+        margin-bottom: 0;
+    }
+    .mainmenu ul li {
+        margin-left: 15px;
+    }
+    .copyright-area {
+        font-size: 12px;
+    }
+    .courses-details.pdt-30 a.edutune-btn {}
+    .mainmenu ul li {
+        margin-left: 8px;
+    }
+    .mainmenu ul li a {
+        font-size: 12px;
+    }
+    .cta-area.theme-2 h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .cta-area.theme-2 {
+        text-align: center;
+    }
+    .cta-area.theme-2 .col-lg-3 {
+        text-align: center!important;
+    }
+    .section-title h3 {
+        font-size: 20px;
+    }
+    .fact-details h3 {
+        font-size: 20px;
+    }
+    .pdt-80 {
+        margin-top: 0px;
+    }
+    .fact-img {
+        height: 230px;
+    }
+    .single-course-bg,
+    .event-2-bg,
+    .single-event-bg {
+        height: 200px;
+    }
+    .single-course-details.mgl-30 {
+        margin-left: 0px;
+    }
+    .single-course-img {
+        margin-top: 30px;
+        height: 200px;
+    }
+    .rounded-box.theme-2 {
+        margin-top: 30px;
+    }
+    .social-links.theme-2 a {
+        margin-bottom: 5px;
+        width: 30px;
+    }
+    .comment-box h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .comment-box {
+        margin-right: 0px;
+    }
+    .comment-box input,
+    .comment-box textarea {
+        margin-bottom: 20px;
+    }
+    .rounded-box.theme-2 {
+        margin-top: 20px;
+    }
+    .drop-line {
+        padding-top: 30px;
+        margin-right: 0px;
+    }
+    #map.contact-map {
+        height: 250px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .single-activities {
+        height: auto;
+    }
+    .activities-bg {
+        margin-left: 25px;
+        display: block;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .mainmenu ul li {
+        margin-left: 8px;
+    }
+    .mainmenu ul li a {
+        font-size: 12px;
+    }
+}

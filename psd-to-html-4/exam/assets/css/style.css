@@ -1,0 +1,1317 @@
+/*                    
+Template Name: Edutune School
+*/
+
+/**********************************
+    >> CSS Index
+
+    > Base CSS
+    > Common Css For All Page
+    > Home Page CSS
+        > Header area
+        > Hero aera
+        > Feature / Quick section area
+        > Course details ara
+        > Cta area
+        > News & Event area
+        > Footer area
+    > About Page
+    > Course Page
+    > Single Course Page
+    > Event Page
+    > Event-Single Page
+    > Our Blog Page
+    > Bolog-signle Page
+    > Contact Page
+    > Co-Activitis Page
+    > FAQ Page
+**********************************/
+
+/*-------------------------------------------------- 
+    Base CSS 
+--------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #676767;
+    line-height: 1.8;
+    background-color: #F9FDFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    color: #313131;
+    font-weight: 700;
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+a:focus,
+select:focus {
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    border: 1px solid #CACACA;
+    padding: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*-------------------------------------------------- 
+    Common CSS For All Page
+--------------------------------------------------*/
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.pdt-30 {
+    padding-top: 30px;
+}
+
+.pdt-80 {
+    padding-top: 80px;
+}
+
+.mgb-0 {
+    margin-bottom: 0px!important;
+}
+
+.mgl-30 {
+    margin-left: 30px;
+}
+
+.mgr-30 {
+    margin-right: 30px;
+}
+
+.mgb-30 {
+    margin-bottom: 30px!important;
+}
+
+.mgb-40 {
+    margin-bottom: 40px!important;
+}
+
+.rounded-box.theme-2 {
+    margin-bottom: 30px;
+}
+
+.bb-0 {
+    border-bottom: 0px!important;
+}
+
+.bt-0 {
+    border-top: 0px!important;
+}
+
+.sp-color {
+    color: #10B666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    border: 1px solid #CACACA;
+    padding: 8px 15px;
+}
+
+button.fullwidth,
+.fullwidth input,
+.fullwidth select,
+.fullwidth textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0px;
+}
+
+a.readmore-btn,
+a.inline-btn {
+    display: inline-block;
+    color: #00CF7F;
+}
+
+a.readmore-btn i.fa {
+    margin-left: 10px;
+}
+
+button.edutune-btn {
+    border: 0px;
+}
+
+
+/*-------------------------------------------------- 
+    Home Page CSS
+--------------------------------------------------*/
+
+/*------------- 
+    css for header area 
+--------------*/
+
+.header-area {
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    margin-top: 22px;
+}
+
+.mainmenu {
+    margin-top: 20px;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mainmenu ul li a {
+    font-weight: 300;
+    color: #fff;
+    display: block;
+
+}
+
+/*------------- 
+    css for hero area 
+--------------*/
+
+.hero-area {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: #00CF7F;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-area:after,
+.cta-area.theme-2:after {
+    position: absolute;
+    background-color: #000;
+    opacity: .6;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.rounded-box.home-form {
+    padding: 50px;
+}
+
+.hero-area h3 {
+    text-align: center;
+    color: #3c3c3c;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.hero-area button[type="submit"] {
+    background-color: #00CF7F;
+    padding: 8px 0;
+    border: none;
+    color: #fff;
+}
+
+.home-form {
+    margin: 150px 0;
+}
+
+.rounded-box,
+.latest-notice {
+    border: 1px solid #F9FAFA;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.rounded-box h5 {
+    margin-bottom: px;
+}
+
+a.edutune-btn,
+button.edutune-btn {
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #00CF7F;
+    margin-top: 30px;
+}
+
+.cta-area.theme-2 a.edutune-btn.theme-3 {
+    background-color: #00CF7F;
+}
+
+
+.hero-right.d-table,
+.hero-right .d-table-cell {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.hero-right h1 {
+    color: #fff;
+}
+
+/*------------- 
+    css for feature or Quick section area 
+--------------*/
+
+.feature-bg-1 {
+    background-image: url(../img/feature-bg-1.jpg)
+}
+
+.feature-bg-2 {
+    background-image: url(../img/feature-bg-2.jpg)
+}
+
+.feature-bg,
+.course-bg {
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 27px;
+    background-color: #C3C4C1;
+}
+
+.feature-description,
+.course-details {
+    padding: 0 20px
+}
+
+.feature-description h5 {
+    color: #00CF7F;
+}
+
+.feature-description p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.latest-notice,
+.latest-event,
+.event-1,
+.categori {
+    padding: 30px;
+}
+
+.latest-notice ul,
+.latest-event ul,
+.event-1 ul,
+.categori ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.latest-notice li,
+.latest-event li,
+.event-1 li,
+.categori li {
+    padding: 20px 30px;
+    border-top: 1px solid #ECFAFF;
+    margin: 0 -30px;
+}
+
+.latest-notice ul:last-child li,
+.latest-event ul:last-child li,
+.categori li:last-child {
+    border-bottom: 0px;
+}
+
+.latest-notice li a,
+.latest-event li a,
+.event-1 li a,
+.event-2-details p a,
+.categori li a {
+    color: #313131;
+    transition: .3s;
+}
+
+.latest-notice li:hover a,
+.latest-event li:hover a,
+.event-1 li:hover a,
+.event-2-details p:hover a,
+.categori li:hover a {
+    color: #00CF7F;
+}
+
+.latest-notice li a span,
+.latest-event li a span,
+.event-1 li a span,
+.event-2-details span {
+    font-size: 85%;
+    font-family: 'Playfair Display', serif;
+    color: #313131;
+}
+
+/*------------- 
+    course details  area 
+--------------*/
+
+.courses-details h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.courses-details p {
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.single-course {
+    height: 160px;
+    width: 160px;
+    background-color: #D7FFFB;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.co-1 {
+    background-color: #FFD6DD;
+}
+
+.co-2 {
+    background-color: #D6EEFF;
+}
+
+.co-3 {
+    background-color: #D6FFEE;
+}
+
+.co-4 {
+    background-color: #F5FFD6;
+}
+
+.co-5 {
+    background-color: #FFEBD6;
+}
+
+.single-course:hover {
+    box-shadow: 0 2px 6px #D6F8EB;
+}
+
+.single-course .subject-icon {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.single-course a {
+    display: block;
+}
+
+.subject-icon img {
+    margin-bottom: 25px;
+}
+
+.subject-icon i.fa {
+    font-size: 35px;
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #1D6598;
+}
+
+/*------------- 
+    cta area 
+--------------*/
+
+.cta-area {
+    background-image: url(../img/home-cta_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: #D7FFFB;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #242424;
+    opacity: .27;
+    z-index: -1;
+}
+
+.video-paly {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.video-paly a,
+.video-paly h5 {
+    color: #fff;
+}
+
+.video-btn {
+    display: inline-block;
+    background-color: #00CF7F;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.video-btn i.fa {
+    padding-left: 3px;
+}
+
+/*------------- 
+    News & Event  area 
+--------------*/
+
+.section-title h2 {
+    margin-bottom: 70px;
+    font-size: 36px;
+}
+
+.event-date,
+.event-2-date {
+    background-color: #00CF7F;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    line-height: 1.4;
+    float: left;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+p.event-date,
+p.event-2-date {
+    padding-top: 6px;
+}
+
+.event-date span,
+.event-2-date span {
+    font-size: 11px;
+}
+
+.event-bg,
+.blog-bg {
+    height: 390px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #00CF7F;
+    border-radius: 5px 5px 0 0;
+}
+
+.event-bg-1 {
+    background-image: url(../img/event-bg-1.jpg)
+}
+
+.event-bg-2 {
+    background-image: url(../img/event-bg-2.jpg)
+}
+
+.event-description {
+    padding: 27px 20px;
+}
+
+.event-description p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.event-description p i.fa {
+    margin-right: 10px;
+}
+
+.event-description p i.fa:last-child {
+    margin-left: 20px;
+}
+
+/*--------------
+    footer  area 
+--------------*/
+
+.footer-area {
+    background-color: #011513;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.footer-area h5,
+.footer-area .foot-logo {
+    margin-bottom: 30px;
+}
+
+.footer-area p,
+.footer-area a {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.single-foot img.foot-logo {
+    width: 90px;
+    height: auto;
+}
+
+.footer-area h5,
+.footer-area a,
+footer i.fa,
+.leniar-page a {
+    color: #fff;
+}
+
+.single-foot .social-links a,
+.leniar-page a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #3A4847;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.single-foot .social-links a:hover,
+.leniar-page a:hover {
+    background-color: #00CF7F;
+}
+
+.single-foot ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-foot ul i.fa {
+    display: inline-block;
+    width: 30px;
+}
+
+.single-foot ul li a span {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.footer-area .col-lg-8 .col-lg-4:nth-child(2) li,
+.footer-area .col-lg-8 .col-lg-4:nth-child(3) li {
+    margin-bottom: 15px;
+}
+
+.footer-area .col-lg-8 .col-lg-4:nth-child(2) li:last-child,
+.footer-area .col-lg-8 .col-lg-4:nth-child(3) li:last-child {
+    margin-bottom: 0px;
+}
+
+.copyright-area {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 15px 0;
+    background-color: #151515;
+}
+
+.copyright-area.theme-2 {
+    background-color: #050F0E;
+}
+
+
+/*-------------------------------------------------------------------- 
+    About Page CSS
+---------------------------------------------------------------------*/
+
+.hero-area.breadcrumb-area {
+    padding-top: 130px;
+    padding-bottom: 90px;
+    color: #fff;
+}
+
+.hero-area.breadcrumb-area {
+    background-image: url(../img/cta_bg.jpg)
+}
+
+.hero-area.breadcrumb-area h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.hero-area.breadcrumb-area i.fa {
+    padding: 0 5px;
+}
+
+.hero-area.breadcrumb-area a {
+    color: #fff;
+}
+
+
+/*------------------------------- End hero-breadcrump Area ---------------------------------*/
+
+/*================================================================================*/
+
+/*------------------------- Start history Area ----------------------------*/
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.section-title p {
+    font-weight: 300;
+}
+
+.single-counter-box {
+    background-color: #fff;
+    color: #313131;
+    padding: 30px 0;
+    text-align: center;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.single-counter-box:hover {
+    border-color: #00CF7F;
+}
+
+.single-counter-box .count {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    ;
+    line-height: 1;
+}
+
+
+/*------------------------------- End history Area ---------------------------------*/
+
+/*================================================================================*/
+
+/*------------------------- Start fact Area ----------------------------*/
+
+.fact-details p {
+    font-weight: 300;
+}
+
+.fact-details p,
+.fact-details H3 {
+    margin-bottom: 30px;
+}
+
+.fact-img {
+    background-image: url(../img/fact-bg.jpg);
+}
+
+.fact-img {
+    background-color: #00CF7F;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/*------------------------------- End Fact Area ---------------------------------*/
+
+/*================================================================================*/
+
+/*------------------------- Start CTA-theme2 Area ----------------------------*/
+
+.cta-area.theme-2 {
+    padding: 65px 0;
+    color: #fff;
+}
+
+.cta-area.theme-2 {
+    background-image: url(../img/hero-bg.jpg)
+}
+
+.cta-area.theme-2 h3 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.cta-area.theme-2 a.edutune-btn {
+    margin-top: 11px;
+    background-color: #0FB6A7;
+    font-size: 14px;
+}
+
+/*-------------------------------------------------------------------- 
+    Course Page CSS
+---------------------------------------------------------------------*/
+
+.course-details {
+    padding-bottom: 20px;
+}
+
+.course-details h5 {
+    margin-bottom: 15px;
+}
+
+.course-details p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.single-course-wrapper {
+    margin-bottom: 30px;
+}
+
+.course-bg-1 {
+    background-image: url(../img/sbu-bg-1.jpg)
+}
+
+.course-bg-2 {
+    background-image: url(../img/sbu-bg-2.jpg)
+}
+
+.course-bg-3 {
+    background-image: url(../img/sbu-bg-3.jpg)
+}
+
+.course-bg-4 {
+    background-image: url(../img/sbu-bg-4.jpg)
+}
+
+.course-bg-5 {
+    background-image: url(../img/sbu-bg-5.jpg)
+}
+
+.course-bg-6 {
+    background-image: url(../img/sbu-bg-6.jpg)
+}
+
+.course-bg-7 {
+    background-image: url(../img/sbu-bg-7.jpg)
+}
+
+.course-bg-8 {
+    background-image: url(../img/sbu-bg-8.jpg)
+}
+
+.course-bg-9 {
+    background-image: url(../img/sbu-bg-9.jpg)
+}
+
+.leniar-page a {
+    background-color: #fff;
+    color: #313131;
+    border: 1px solid #F4F4F4;
+    margin-right: 6px;
+    transition: .3s;
+}
+
+.leniar-page a:hover {
+    color: #fff;
+}
+
+/*-------------------------------------------------------------------- 
+    Single Course Page CSS
+---------------------------------------------------------------------*/
+
+.single-course-img {
+    background-image: url(../img/single-course-igm.jpg)
+}
+
+.single-course-img {
+    background-color: #00CF7F;
+    height: 515px;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.single-course-details {
+    margin-bottom: 35px;
+}
+
+.single-course-details h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.single-course-details p span {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    display: block;
+}
+
+.single-course-bg {
+    background-image: url(../img/single-course-bg.jpg);
+    background-color: #00CF7F;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.single-course-details a.edutune-btn {
+    margin-top: 20px;
+}
+
+.event-2-bg,
+.single-event-bg {
+    height: 350px;
+    background-color: #00CF7F;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+.enent-2-bg-1 {
+    background-image: url(../img/event-bg-1.jpg)
+}
+
+.enent-2-bg-2 {
+    background-image: url(../img/event-bg-2.jpg)
+}
+
+.enent-2-bg-3 {
+    background-image: url(../img/event-2-bg-3.jpg)
+}
+
+.enent-2-bg-4 {
+    background-image: url(../img/event-2-bg-4.jpg)
+}
+
+.event-2-date {
+    position: absolute;
+    margin: 0;
+    right: 20px;
+    top: 20px;
+}
+
+.event-2-details {
+    padding: 20px;
+}
+
+.event-2-details p {
+    margin-bottom: 0px;
+}
+
+.event-2-details p span {
+    margin-top: 15px;
+    display: block;
+}
+
+.event-2-details p a {
+    display: block;
+}
+
+/*-------------------------------------------------------------------- 
+    Event Page CSS
+---------------------------------------------------------------------*/
+
+.single-event-bg {
+    background-image: url(../img/event-bg-2.jpg);
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.single-event-details h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.single-event-details p {
+    margin-bottom: 30px;
+}
+
+.single-event-details h5 {
+    font-size: 18px;
+}
+
+#map {
+    display: block;
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    background-color: #ddd;
+}
+
+#map.contact-map {
+    margin-top: 70px;
+    box-shadow: 0 1px 3px #E0E4E5;
+    margin-left: -30px;
+}
+
+/*-------------------------------------------------------------------- 
+    Blog Page CSS
+---------------------------------------------------------------------*/
+
+.blog-bg-1 {
+    background-image: url(../img/event-bg-1.jpg)
+}
+
+.blog-bg-2 {
+    background-image: url(../img/event-bg-2.jpg)
+}
+
+.blog-bg-3 {
+    background-image: url(../img/event-2-bg-3.jpg)
+}
+
+.blog-bg-4 {
+    background-image: url(../img/blog-bg-4.jpg)
+}
+
+.blog-bg-5 {
+    background-image: url(../img/blog-bg-5.jpg)
+}
+
+.blog-bg-6 {
+    background-image: url(../img/blog-bg-6.jpg)
+}
+
+.event-description h5 a {
+    color: #313131;
+    transition: .3s;
+}
+
+.event-description h5 a:hover {
+    color: #00cf7f;
+}
+
+/*-------------------------------------------------------------------- 
+    Blog Single Page CSS
+---------------------------------------------------------------------*/
+
+.blog-video-bg {
+    background-image: url(../img/event-bg-1.jpg);
+    height: 280px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #00CF7F;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.blog-video-bg .d-table-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blog-video-bg a {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.news-meta {
+    color: #10B6A7;
+    border-right: 2px solid #676767;
+    padding-right: 10px;
+    margin-right: 10px;
+
+}
+
+.social-links.theme-2 a {
+    display: inline-block;
+    padding: 3px 0px;
+    width: 80px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #4A67AA;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.social-links.theme-2 a:nth-child(1) {
+    margin-left: 10px;
+}
+
+.social-links.theme-2 a:nth-child(2) {
+    background-color: #1DA1F2;
+}
+
+.social-links.theme-2 a:nth-child(3) {
+    background-color: #CD2129;
+}
+
+.social-links.theme-2 a:nth-child(4) {
+    background-color: #DC4C3B;
+}
+
+.social-links.theme-2 a:nth-child(5) {
+    background-color: #39495D;
+}
+
+.comment-box {
+    margin-right: 70px;
+}
+
+.comment-box h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.comment-box input {
+    margin-bottom: 30px;
+}
+
+.comment-box button.edutune-btn {
+    background-color: #0FB6A7;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------- 
+    Contact Page CSS
+---------------------------------------------------------------------*/
+
+.contact {
+    border-bottom: 1px solid #ECFAFF;
+    border-top: 1px solid #ECFAFF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #000;
+    position: relative;
+    transition: .3s;
+}
+
+.contact.bre {
+    margin-right: -30px;
+    padding-right: 30px;
+}
+
+.contact:hover {
+    border-color: #F9FDFF;
+}
+
+.contact i.fa {
+    position: absolute;
+    left: 0;
+    top: -25px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.contact a {
+    color: #676767;
+}
+
+.contact span {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #313131;
+    font-weight: 700;
+}
+
+.drop-line {
+    padding-top: 70px;
+    margin-right: -30px;
+}
+
+.drop-line input,
+.drop-line textarea {
+    background-color: transparent;
+}
+
+.drop-line h3 {
+    padding-bottom: 30px;
+}
+
+#map.contact-map {
+    height: 88%;
+}
+
+/*-------------------------------------------------------------------- 
+    Co-Activities Page CSS
+---------------------------------------------------------------------*/
+
+.single-activities {
+    background-color: #fff;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.activities-bg {
+    background-color: #00CF7F;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.activities-bg-1 {
+    background-image: url(../img/activities-bg-1.jpg)
+}
+
+.activities-bg-2 {
+    background-image: url(../img/activities-bg-2.jpg)
+}
+
+.activities-bg-3 {
+    background-image: url(../img/activities-bg-3.jpg)
+}
+
+.activities-bg-4 {
+    background-image: url(../img/activities-bg-4.jpg)
+}
+
+.activities-bg-5 {
+    background-image: url(../img/activities-bg-5.jpg)
+}
+
+.activities-bg-6 {
+    background-image: url(../img/activities-bg-6.jpg)
+}
+
+.activities-details {
+    padding: 25px;
+}
+
+.activities-details h5 {
+    font-size: 17px;
+}
+
+.activities-details p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+/*-------------------------------------------------------------------- 
+    FAQ Page CSS
+---------------------------------------------------------------------*/
+
+.faq-collapse h5 {
+    color: #616161;
+    margin-bottom: 40px;
+}
+
+.faq-collapse .card {
+    border: 0;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.faq-collapse .card-header {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    border: 0px;
+}
+
+.faq-collapse h5 a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #313131;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+
+.faq-collapse h5 a .show-icon {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #C5FFE9;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    color: #14B769;
+    font-size: 25px;
+}
+
+.faq-collapse h5 a i.fa {
+    display: none;
+}
+
+.faq-collapse h5 a[aria-expanded="true"] i.fa.fa-angle-down {
+    display: block;
+    line-height: 33px;
+    text-align: center;
+}
+
+.faq-collapse h5 a[aria-expanded="false"] i.fa.fa-angle-right {
+    display: block;
+    line-height: 32px;
+    text-align: center;
+    padding-left: 2px;
+}
+
+.faq-collapse .card-body {
+    margin-left: 40px;
+    padding-top: 0px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.faq-collapse .card-header {
+    padding-bottom: 0;
+    padding-left: 0;
+}
