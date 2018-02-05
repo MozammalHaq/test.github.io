@@ -1,0 +1,162 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+.logo {
+    padding: 10px 0;
+    display: inline-block;
+}
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.main-menu {
+    padding: 10px 0;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-menu ul li a {
+    position: relative;
+    display: block;
+}
+.main-menu ul li a:after {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ECB31F;
+    border: 2px solid #fff;
+    content: "";
+    display: none;
+    transition: .3s;
+}
+.main-menu ul li a {
+    display: block;
+    color: #ddd;
+    padding-left: 25px;
+    transition: .3s;
+}
+.main-menu ul li:hover a:after {
+    display: block;
+}
+.search-button {
+    display: inline-block;
+    padding: 10px 0 10px 20px;
+    color: #fff;
+    transition: .3s;
+}
+.search-button:hover {
+    color: #ECB31F;
+}
+.main-menu ul li a:hover {
+    color: #ECB31F;
+}
+.homepage-slides h2 {
+    color: #ECB31F;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.homepage-slides a {
+    color: #ECB31F;
+}
+.single-slide-item {
+    background-color: #263238;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+}
+.slide-text {
+    padding: 180px 0;
+}
+.single-slide-item .row {
+    position: relative;
+}
+.slide-img img {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    max-height: 540px;
+}
+.owl-carousel .owl-item .slide-img img {
+    width: auto;
+}
+.readmore-btn {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .3s;
+}
+.readmore-btn:hover {
+    background-color: #FFC426;
+    color: #fff;
+}
+.readmore-btn i.fa {
+    padding-left: 5px;
+}
+.homepage-slides .owl-dots div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFC427;
+    margin: 5px;
+    display: inline-block;
+}
+.owl-dots {
+    position: absolute;
+    z-index: 10;
+    margin-top: -60px;
+    text-align: center;
+    width: 100%;
+}
+.homepage-slides .owl-dots div.active {
+    background-color: #fff;
+}
