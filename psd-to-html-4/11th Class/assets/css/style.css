@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i');
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #676767;
+    line-height: 1.8;
+    background-color: #F9FDFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #8A64EB;
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+a:focus,
+select:focus{
+    outline: none;
+}
+
+input[type="text"],input[type="email"],input[type="number"], select, textarea {
+    border: 1px solid #CACACA;
+    padding: 8px;
+}
+body, html {
+    height: 100%;
+}
+a.admission-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #8A64EB;
+    color: #fff;
+    margin-top: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    border-radius: 0 50px 0 50px;
+}
+a.admission-btn:hover {
+    text-decoration: none;
+}
+.section-padding {
+    padding:100px 0;
+}
+.section-title {
+    margin-bottom: 70px;
+}
+.section-title h2 {
+    font-size: 36px;
+}
+.pdt-100 {
+    padding-top: 100px;
+}
+.col-orange {
+    color: #F8A32A;
+}
+/*==================================================
+    Home Page CSS
+====================================================*/
+
+/*--------------------------------------------------
+    css for header area
+----------------------------------------------------*/
+.header-area {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.site-title h1 a {
+    color: #8A64EB;
+    font-size: 24px;
+}
+.site-title h1 a span, .hero-text h1 span span{
+    color: #F8A32A;
+}
+.site-title h1 a span span, .hero-text h1 span{
+    color: #E7492E;
+}
+
+.mainmenu {
+    margin-top: 20px;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mainmenu ul li a {
+    font-weight: 300;
+    color: #313131;
+    display: block;
+    font-size: 16px;
+    transition: .3s;
+}
+.mainmenu ul li a:hover {
+    color: #8A64EB;
+    text-decoration: none;
+}
+/*--------------------------------------------------
+    css for hero area
+----------------------------------------------------*/
+.hero-bg div {
+    height: 100%;
+}
+.hero-bg {
+    background-color: #DAF8FF;
+    height: 670px;
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+}
+/*
+.sun {
+    position: absolute;
+    right: 15%;
+    top: 8%;
+}
+*/
+
+.sun {
+    background-image: url(../img/sun.png);
+    position: absolute;
+    right: 15%;
+    top: 8%;
+    width: 160px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.rocket {
+    position: absolute;
+    right: -20%;
+    top: 8%;
+}
+.rocket img {
+    height: 40%;
+}
+.hero-details, .hero-table, .hero-table-cell {
+    width: 100%;
+}
+.hero-text {
+    z-index: 9;
+}
+.hero-text h1 {
+    font-size: 50px;
+    color: #313131;
+}
+
+/*--------------------------------------------------
+    css for why edutune kids area
+----------------------------------------------------*/
+.why-img img{
+    width: 120%;
+}
+.why-details h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.single-edu-details {
+    margin-bottom: 40px;
+}
+.single-edu-details img {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+.single-edu-details p {
+    font-size: 13px;
+}
+
+
+/*--------------------------------------------------
+    css for courses area
+----------------------------------------------------*/
+.our-courses {
+    background-image: url(../img/section-bg.jpg);
+}
+.single-course-details {
+    background-color: #F8FEFF;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+}
+.single-course-details h5 {
+    margin: 30px 0;
+}
+.single-course-details strong {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    display: block;
+}
+.single-course-details strong span{
+    margin-left: 20px;
+}
+.sin-co-img {
+    width: 170px;
+    height: 170px;
+    background-color: #DAF8FF;
+    margin: 15px auto;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.sin-co-bg-1 {
+    background-image: url(../img/course-bg-1.png);
+}
+.sin-co-bg-2 {
+    background-image: url(../img/course-bg-2.png);
+}
+.sin-co-bg-3 {
+    background-image: url(../img/course-bg-3.png);
+}
+
+/*--------------------------------------------------
+    css for teachers team area
+----------------------------------------------------*/
+.teachers {
+    margin-top: 80px;
+}
+.single-teacher {
+    float: left;
+    width: 20%;
+    font-size: 14px;
+}
+.single-teacher img {
+    margin-bottom: 30px;
+}
+.single-teacher h4 {
+    font-size: 22px;
+}
+.spiral {
+    position: relative;
+}
+.spiral-img img {
+    position: absolute;
+    top: -100px;
+    width: 30%;
+}
+.spiral-img img.spi2 {
+    position: absolute;
+    right: 0;
+    top: -130px
+}
+
+/*--------------------------------------------------
+    css for caurosel area
+----------------------------------------------------*/
+.caurosel-bg {
+    background-image: url(../img/carousel-bg.jpg);
+    background-color: #F8A32C;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.caurosel-bg:after {
+    background-color: #daf8ff;
+    opacity: .67;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+}
+.testimonial-content p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    color: #313131;
+    font-weight: 300;
+}
+.testimonial-meta img {
+    background-color: #8A64EB;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.testimonial-meta {
+    font-size: 14px;
+}
+.testimonial-meta h6 {
+    margin-top: 25px;
+}
+.owl-carousel .owl-item .testimonial-meta img {
+    width: 80px;
+    margin: 0 auto;
+}
+.testimonial-carousel .owl-nav div {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    font-size: 35px;
+    color: #8A64EB;
+    line-height: 40px;
+    margin-top: -20px;
+    opacity: 0;
+    transition: .3s;
+}
+.testimonial-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 0%;
+}
+.testimonial-carousel:hover .owl-nav div {
+    left: 5%;
+    opacity: 1;
+}
+.testimonial-carousel:hover .owl-nav div.owl-next {
+    left: auto;
+    right: 5%;
+}
+
+/*--------------------------------------------------
+    css for event area
+----------------------------------------------------*/
+
+.event-img {
+    height: 300px;
+    background-color: #C7F3FF;
+    margin-bottom: 30px;
+    border-radius: 0 50px 0 50px;
+    background-position: center;
+    background-size: cover;
+}
+.event-bg-1 {background-image: url(../img/event-bg-1.jpg)}
+.event-bg-2 {background-image: url(../img/event-bg-2.jpg)}
+.event-bg-3 {background-image: url(../img/event-bg-3.jpg)}
+.single-event h3 {
+    font-size: 26px;
+}
+.single-event a {
+    color: #676767;
+    font-size: 14px;
+}
+.single-event a .fa-w-14, .single-event a .fa-w-12{
+    margin-right: 10px;
+    color: #F8AB40;
+}
+
+/*--------------------------------------------------
+    css for cta area
+----------------------------------------------------*/
+
+
+.cta-area {
+    background-image: url(../img/section-bg.jpg);
+    background-color: #F8A32C;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.cta-area:after {
+    background-color: #daf8ff;
+    opacity: .23;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+}
+.cta-area h2 {
+    font-size: 36px;
+    color: #313131;
+}
+.cta-area a.admission-btn {
+    margin-top: 0px;
+}
+
+/*--------------------------------------------------
+    css for footer area
+----------------------------------------------------*/
+
+.footer-area {
+    background-color: #8A64EB;
+    padding-top: 50px;
+    padding-bottom: 130px;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/footer-foot.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.footer-area .col-lg-4 {
+    margin-left: -30px;
+}
+.footer-area h5, .footer-area a, .footer-area p {
+    color: #fff;
+}
+.footer-area a, .footer-area p {
+    font-size: 14px;
+}
+.footer-area h5 {
+    margin-bottom: 30px;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-area li, .footer-area a {
+    transition: .3s;
+}
+.footer-area li:hover a, .footer-area a:hover {
+    color: #F8A32C;
+    text-decoration: none;
+}
+.email-subscribe-form input {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 0 50px 0 50px;
+    border: none;
+}
+.email-subscribe-form input[type="email"] {
+    width: 62%;
+    background-color: #FFF;
+}
+.email-subscribe-form input[type="submit"] {
+    width: 35%;
+    background-color: #F8A32C;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
