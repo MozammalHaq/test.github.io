@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i');
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #676767;
+    background-color: #F9FDFF;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #8A64EB;
+}
+input:focus, textarea:focus,button:focus, a:focus, select:focus{
+    outline: none;
+}
+
+input[type="text"],input[type="email"],input[type="number"], select, textarea {
+    border: 1px solid #CACACA;
+    padding: 8px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a.boxed-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #8A64EB;
+    color: #fff;
+    margin-top: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    border-radius: 0 50px 0 50px;
+    transition: .3s;
+}
+a.boxed-btn:hover {
+    text-decoration: none;
+    background-color: #FFDE00;
+    color: #A564EB;
+}
+/*
+.section-padding {
+    padding:100px 0;
+}
+.section-title {
+    margin-bottom: 70px;
+}
+.section-title h2 {
+    font-size: 36px;
+}
+.pdt-100 {
+    padding-top: 100px;
+}
+.col-orange {
+    color: #F8A32A;
+}
+*/
+/*==================================================
+    Home Page CSS
+====================================================*/
+
+/*--------------------------------------------------
+    css for menu area
+----------------------------------------------------*/
+.header-area {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.site-title h1 a {
+    color: #8A64EB;
+    font-size: 24px;
+}
+.site-title h1 a span, .hero-text h1 span span{
+    color: #F8A32A;
+}
+.site-title h1 a span span, .hero-text h1 span{
+    color: #E7492E;
+}
+
+.mainmenu {
+    margin-top: 20px;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.mainmenu ul li a {
+    font-weight: 300;
+    color: #313131;
+    display: block;
+    font-size: 16px;
+    transition: .3s;
+}
+.mainmenu ul li a:hover {
+    color: #8A64EB;
+    text-decoration: none;
+}
+/*--------------------------------------------------
+    css for hero area
+----------------------------------------------------*/
+.hero-area {
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    background-position: center 0px;
+    height: 640px;
+    position: relative;
+    padding: 200px 0;
+}
+.hero-area .sun {
+    position: absolute;
+    top: 70px;
+    right: 25%;
+}
+.hero-area h2 {
+    font-size: 45px;
+    color: #313131;
+}
+.hero-area h2 span {
+    color: #E74B30;
+}
+.hero-area h2 span span {
+    color: #F8A32C;
+}
