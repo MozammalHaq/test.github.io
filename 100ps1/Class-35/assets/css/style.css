@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900');
+
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-absolute-bg {
+    background-image: url(../img/background-bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+}
+.section-absolute-bg:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    opacity: .5;
+}
+.section-absolute-bg.arrow:after {
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    margin-top: -15px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #222931;
+    transform: rotate(90deg)
+}
+.absolute-bg-2 {
+    background-image: url(../img/background-bg-2.jpg)
+}
+.section-padding {
+    background-color: #222931;
+    color: #BCC1C1;
+    font-size: 13px;
+    line-height: 1.7;
+    position: relative;
+    z-index: 1;
+    padding: 80px 0;
+}
+.boxed-content h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+a.boxed-btn {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: .3s;
+}
+a.boxed-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.boxed-content{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+.absolute-bg-left .boxed-content{
+    margin-left: 60px;
+    padding-right: 0;
+}
+
+.boxed-content:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 1px;
+    background-color: #61666B;
+    content: "";
+}
+.absolute-bg-left .section-absolute-bg {
+    right: auto;
+    left: 0;
+}
