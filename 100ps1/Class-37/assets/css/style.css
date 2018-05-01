@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.team-bg {
+    height: 230px;
+    background-image: url(../img/team-bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    margin-bottom: 50px;
+}
+
+.team-bg-2 {
+    background-image: url(../img/team-bg-2.jpg)
+}
+
+.team-bg-3 {
+    background-image: url(../img/team-bg-3.jpg)
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    position: relative;
+    padding-top: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    transform: rotate(270deg);
+    width: 300px;
+    margin-left: -117px;
+    margin-top: 106px;
+
+}
+
+.section-title:before {
+    position: absolute;
+    top: 0;
+    right: 11px;
+    width: 40%;
+    content: "";
+    background-color: #000;
+    height: 1px;
+}
+
+.bodered-box {
+    border: 1px solid #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.bodered-content {
+    margin-top: -13px;
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.bodered-content h3 {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.bodered-content p {
+    margin-bottom: 20px;
+}
+
+.col-lg-4:nth-child(2) .single-team-member {
+    margin-top: 121px;
+}
