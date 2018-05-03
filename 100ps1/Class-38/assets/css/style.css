@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Roboto:100,100i,300,300i,400,400i,500,700,900');
+body {
+    font-size: 16px;
+    color: #373534;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Patua One', cursive;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.single-slide-item {
+    background-image: url(../img/food-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+}
+.slide-bg-2 {background-image: url(../img/food-img-2.jpg)}
+.slide-bg-3 {background-image: url(../img/food-img-3.jpg)}
+.logo a {
+    font-family: 'Patua One', cursive;
+    color: #2D2E2E;
+    font-size: 20px;
+}
+
+.logo img {
+    max-width: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo a span {
+    display: block;
+    font-size: 70%;
+    font-style: italic;
+    margin-top: -6px;
+}
+
+.logo {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.right-contact-box {
+    position: relative;
+    display: inline-block;
+    margin-left: 37px;
+    padding-left: 35px;
+    text-align: left;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+.right-contact-box a {
+    color: #373534;
+}
+
+.right-contact-box i.fa {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 20px;
+}
+
+.header-area {
+    padding: 25px 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+/*------------------------- start caurosel area --------------------------*/
+
+.single-slide-item {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.slide-text {
+    position: relative;
+    z-index: 1;
+    padding: 40px 60px;
+    padding-right: 80px;
+    font-size: 18px;
+}
+
+.slide-text::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: .5;
+    content: "";
+    z-index: -1;
+}
+
+.slide-text h2 {
+    color: #2D2E2E;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    background-color: #F18000;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.slide-text .boxed-btn {
+    margin-top: 20px;
+}
+
+/*--------------- start owlcaurosel----------*/
+
+.homepage-slider .owl-nav div {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -30px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.homepage-slider:hover .owl-nav div {
+    opacity: .5;
+}
+
+.homepage-slider .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+
+.homepage-slider .owl-dots div {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.homepage-slider .owl-dots div.active {
+    background-color: #F18000;
+}
+
+.homepage-slider .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
