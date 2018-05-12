@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800');
+body {
+    font-size: 16px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding-top: 80px;
+}
+
+.section-bg {
+    background-image: url(../img/section-bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.price-box {
+    box-shadow: 0 0 30px #596F86;
+    overflow: hidden;
+}
+
+.single-pricing-box {
+    width: 33.333333%;
+    float: left;
+    position: relative;
+}
+
+.single-pricing-box:after {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0;
+    right: 0;
+    background-color: #065BCF;
+    content: "";
+    opacity: .5;
+    z-index: 1;
+}
+
+.single-pricing-box:last-child::after {
+    display: none;
+}
+
+.priceing-box-img {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.priceing-box-img .d-table-cell {
+    vertical-align: middle;
+}
+
+.priceing-box-img img {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.price-box-content {
+    background-color: #fff;
+    padding: 30px;
+    color: #64B5FF;
+    text-transform: uppercase;
+}
+
+.price-box-content h2 {
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.price-box-content h2:after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #64B5FF;
+    content: "";
+    margin-left: -10px;
+}
+
+h3.price-value {
+    margin: 0;
+}
+
+.price-value span {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    color: #FB5D6B;
+    font-size: 50px;
+    padding-left: -14px;
+}
+
+.price-value span:before {
+    content: "$";
+    position: absolute;
+    left: -14px;
+    top: 0;
+    font-size: 40%;
+    font-weight: 400;
+}
+
+.price-value span:after {
+    content: "/mo";
+    font-size: 40%;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-left: 4px;
+}
+
+.price-box-content ul {
+    margin: 30px 0;
+}
+
+.price-box-content li {
+    text-align: left;
+    list-style: none;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    background-color: #64B5FF;
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+a.boxed-btn:hover {
+    background-color: #F75363;
+}
+a.boxed-btn.active {
+    background-color: #F75363;
+    transition: .3s;
+}
+a.boxed-btn.active:hover {
+    background-color: #64B5FF;
+}
