@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700|Roboto:100,300,400,500,700,900');
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.single-product-box img {
+    width: 280px;
+}
+
+.single-product-box {
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.single-product-box:after {
+    position: absolute;
+    left: 0;
+    top: 0%;
+    background: url(../img/map.png) no-repeat scroll center top #323232;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 0;
+    transition: .3s;
+}
+
+.single-product-box:hover::after {
+    top: -10%;
+    height: 120%;
+    opacity: 1;
+}
+
+/*
+.single-product-box:after {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    background-color: #323232;
+    width: 100%;
+    height: 120%;
+    content: "";
+    z-index: -1;
+}
+*/
+.single-product-box .d-table-cell {
+    height: 300px;
+    vertical-align: middle;
+}
+
+.single-product-box .d-table {
+    text-align: center;
+    width: 100%;
+    background-color: #F1F1F1;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+.single-product-box:hover .d-table {
+    background-color: transparent;
+}
+
+.single-product-box h4 {
+    text-align: center;
+    font-family: roboto;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.single-product-box:hover h4 {
+    color: #fff;
+}
+
+.product-price {
+    font-size: 35px;
+    font-family: Oswald;
+    font-weight: 700;
+    color: #FC5342;
+    text-align: center;
+}
+
+.product-hover-links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-product-box:hover .product-hover-links {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-hover-links .col-md-8 a {
+    color: #959595;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.product-hover-links .col-md-8 a:hover {
+    color: #fff;
+}
+
+.product-hover-links .col-md-8 a:first-child {
+    margin-left: 20px;
+}
+
+.product-hover-links .col-md-4 a {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 20px;
+    border: 2px solid #FF9896;
+}
