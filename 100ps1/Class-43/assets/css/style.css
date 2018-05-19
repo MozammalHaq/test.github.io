@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script|Roboto:300,400,500,700');
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+a:hover {
+    text-decoration: none;
+}
+
+.welcome-hero-area {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-area-logo h3 {
+    font-family: 'Euphoria Script', cursive;
+}
+
+.menu-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 3px;
+}
+
+.logo a:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    background-color: #fff;
+    height: 2px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 18px;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+.menu ul li a:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+}
+
+.welcome-hero-area .d-table {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.welcome-hero-area .d-table-cell {
+    vertical-align: middle;
+}
+
+.scroll-tool-about {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: 100%;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    text-align: center;
+    opacity: .8;
+}
+
+.hero-area-logo h3 {
+    font-size: 80px;
+    color: #C29E5C;
+    line-height: 40px;
+    letter-spacing: -5px;
+    margin: 0;
+}
+
+.hero-area-logo h4 {
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+.hero-area-logo p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+
+.bodered-area {
+    overflow: hidden;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.bodered-area-left-border,
+.bodered-area-right-border {
+    background-color: #fff;
+    width: 39%;
+    height: 2px;
+    float: left;
+    margin-top: 7px;
+    position: relative;
+}
+
+.bodered-area i.fa {
+    float: left;
+    color: #C49E5F;
+    padding: 0 20px;
+}
+
+.bodered-area-left-border::before {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 8px solid #fff;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    content: "";
+}
+.bodered-area-right-border::before {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 8px solid #fff;
+    position: absolute;
+    right: 0;
+    top: -3px;
+    content: "";
+}
