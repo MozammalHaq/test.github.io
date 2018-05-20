@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900');
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Lato', sans-serif;
+    color: #42413E;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+a:hover {
+    text-decoration: none;
+}
+
+.welcome-area {
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+.welcome-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    content: "";
+    z-index: -1;
+    opacity: .8;
+}
+
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo img {
+    max-width: 40px;
+}
+
+.logo a {
+    color: #EE4245;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.header-area {
+    padding-top: 20px;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+}
+
+.main-menu {
+    margin-top: 4px;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    display: block;
+    color: #60564A;
+    padding: 10px 25px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.main-menu .bodered {
+    color: #EF4043;
+    border: 1px solid;
+}
+
+.copyright-area {
+    position: absolute;
+    background-color: #42413E;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.welcome-area .d-table {
+    width: 100%;
+    height: 100%;
+}
+.welcome-area .d-table-cell {
+    vertical-align: middle;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero-text p {
+    line-height: 1.4;
+    margin-bottom: 60px;
+}
+
+.email-subscribe-form p {
+    margin-bottom: 10px;
+}
+
+.email-subscribe-form {
+    max-width: 500px;
+}
+
+.email-subscribe-form input[type="text"] {
+    padding: 8px 15px;
+    width: 63%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+.email-subscribe-form button[type="submit"] {
+    background-color: #EF4043;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+}
+
+.social-icons a {
+  color: #42413E;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.copyright-area {
+  position: absolute;
+  background-color: #42413E;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+    z-index: 9
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.copyright-area ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.copyright-area ul li a {
+  color: #fff;
+}
+.copyright-area {
+  font-size: 14px;
+  padding: 5px 0;
+}
