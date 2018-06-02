@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  color: #313131;
+}
+.section-title h3 {
+  color: #C2C2C2;
+}
+.section-title h3 span {
+  color: #FC3651;
+}
+.single-listing-box {
+    height: 350px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+}
+.single-listing-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .5;
+    content: "";
+    z-index: -1;
+    border-radius: 5px;
+}
+.listing-bg-1 {background-image: url(../img/listing-bg-1.JPG)}
+.listing-bg-2 {background-image: url(../img/listing-bg-2.JPG)}
+.listing-bg-3 {background-image: url(../img/listing-bg-3.JPG)}
+.listing-bg-4 {background-image: url(../img/listing-bg-4.JPG)}
+.listing-bg-5 {background-image: url(../img/listing-bg-5.JPG)}
+.listing-bg-6 {background-image: url(../img/listing-bg-6.JPG)}
+.listing-bg-7 {background-image: url(../img/listing-bg-7.JPG)}
+.listing-bg-8 {background-image: url(../img/listing-bg-8.PNG)}
+.listing-bg-9 {background-image: url(../img/listing-bg-9.JPG)}
+.listing-bg-10 {background-image: url(../img/listing-bg-1.JPG)}
+.listing-bg-11 {background-image: url(../img/listing-bg-2.JPG)}
+.listing-bg-12 {background-image: url(../img/listing-bg-3.JPG)}
+
+.single-listing-box h3 {
+    color: #fff;
+}
+.single-listing-box h3 span {
+    display: block;
+    opacity: .7;
+    font-size: 70%;
+    margin-top: 10px;
+}
+
+.listing-content {
+    position: absolute;
+    width: 80%;
+    bottom: 30px;
+}
+
+.rounded-btn {
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.listing-caurosel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.section-padding.overflow-x {
+    overflow-x: hidden;
+}
+.listing-caurosel {
+    position: relative;
+}
+
+.listing-caurosel:before {
+    position: absolute;
+    left: -615px;
+    top: 0;
+    height: 100%;
+    width: 600px;
+    background-color: #fff;
+    opacity: .3;
+    content: "";
+    z-index: 1;
+}
+.listing-caurosel:after {
+    position: absolute;
+    right: -615px;
+    top: 0;
+    height: 100%;
+    width: 600px;
+    background-color: #fff;
+    opacity: .3;
+    content: "";
+    z-index: 1;
+}
+
+.listing-caurosel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.listing-caurosel .owl-dots div {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #BFBFBF;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+}
+.listing-caurosel .owl-dots div.active {
+    background-color: #BFBFBF;
+}
