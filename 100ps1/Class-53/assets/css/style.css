@@ -51,7 +51,7 @@ a:hover {
     left: 0;
     top: 40px;
     z-index: 2;
-    width: 220px;
+    width: 240px;
     visibility: hidden;
     opacity: 0;
     transition: .3s;
