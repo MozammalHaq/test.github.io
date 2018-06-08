@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+body.theme-2 {
+    background: #708ca0;
+    background: -moz-linear-gradient(left, #708ca0 0%, #888398 50%, #ac816f 100%);
+    background: -webkit-linear-gradient(left, #708ca0 0%,#888398 50%,#ac816f 100%);
+    background: linear-gradient(to right, #708ca0 0%,#888398 50%,#ac816f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#708ca0', endColorstr='#ac816f',GradientType=1 );
+}
+
+body.theme-1, .theme-2 .site-wrap {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+html, .theme-1, .site-wrap {
+    height: 100%;
+}
+
+.site-wrap .d-table {
+    width: 100%;
+    height: 100%;
+}
+
+.site-wrap .d-table-cell {
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 50px;
+}
+
+.logo h1 a {
+    color: #252C30;
+    font-size: 30px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu ul li {
+    display: inline-block;
+}
+.main-menu ul li a {
+    display: block;
+    padding-left: 30px;
+    color: #816662;
+}
+
+.footer-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 50px;
+}
+.footer-area {
+    border-top: 1px solid #F7F7F7;
+}
+.footer-area p {
+    margin: 8px 0 0 0;
+}
+
+.social-links a {
+    color: #B2ACB1;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+.slide-text {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.slide-text h1 {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.slide-text p a {
+    color: #7C5F79;
+}
+
+/*-------------------- Theme 2 ----------------------*/
+
+.theme-2 .site-wrap {
+    margin: 5%;
+}
+.theme-2 .slide-text {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.theme-2 .header-area {
+    position: relative;
+}
+.theme-2 .footer-area {
+    position: relative;
+}
