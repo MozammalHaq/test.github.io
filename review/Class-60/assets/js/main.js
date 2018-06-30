@@ -4,7 +4,7 @@
 
         $("#map").gmap3({
             address: "Comilla, Bangladesh",
-            zoom: 6,
+            zoom: 10,
             mapTypeId : google.maps.MapTypeId.ROADMAP,
         });
 
