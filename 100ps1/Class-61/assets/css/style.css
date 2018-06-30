@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Inika:400,700|Ubuntu:300,400,400i,500,700');
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    /*font-family: 'Inika', serif;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.contact-map {
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: -150px;
+    box-shadow: 0 0 10px #333;
+}
+
+.section-padding {
+    padding: 30px 0;
+    margin-bottom: 120px;
+}
+
+.map-bg {
+    background-color: #343950;
+    color: #fff;
+}
+
+h1.section-title {
+    font-family: "Times New Roman";
+    font-size: 75px;
+    padding-bottom: 30px;
+}
+
+.header-paragraph {
+    margin-top: 20px;
+}
+
+p.header-paragraph {
+    color: #aaa;
+}
+p.header-paragraph strong {
+    color: #fff;
+}
+
+.location-direction {
+    margin-left: 40px;
+    padding: 0;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.location-direction h3 {
+    font-family: 'Inika', serif;
+    color: #CE9636;
+}
+
+.location-direction li {
+    color: #918B98;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.location-direction li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.location-direction li:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 1px;
+    content: "";
+    background-color: #3E4359;
+}
+
+.location-direction li:last-child::after {
+    display: none;
+}
+
+.location-direction h3 {
+  font-size: 50px;
+}
+.location-direction h3 span {
+  font-size: 20px;
+    text-transform: none;
+}
