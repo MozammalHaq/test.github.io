@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.project-filter {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+    margin-bottom: 40px;
+}
+.project-filter li {
+  display: inline-block;
+    margin: 0 20px;
+}
+
+.project-filter li.active {
+    border-bottom: 2px solid;
+}
+
+.project-filter li a {
+  display: block;
+  font-weight: 700;
+  color: #333;
+}
+
+.single-project-item {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.single-project-item:after, .single-project-item:before {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    content: "";
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.single-project-item:hover::after, .single-project-item:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+.single-project-item:after {
+    right: 0;
+    top: 0;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.single-project-item:before {
+    left: 0;
+    bottom: 0;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.project-bg-1 {background-image: url(../img/brand-1.jpg)}
+.project-bg-2 {background-image: url(../img/brand-8.jpg)}
+.project-bg-3 {background-image: url(../img/brand-4.jpg)}
+.project-bg-4 {background-image: url(../img/brand-2.jpg)}
+.project-bg-5 {background-image: url(../img/brand-5.jpg)}
+.project-bg-6 {background-image: url(../img/brand-6.jpg)}
+.project-bg-7 {background-image: url(../img/brand-7.jpg)}
+.project-bg-8 {background-image: url(../img/brand-3.jpg)}
+.project-bg-9 {background-image: url(../img/brand-4.jpg)}
+
+.project-hover {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    transform: scale(.8);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-project-item:hover .project-hover {
+    opacity: 1;
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.project-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+    content: "";
+    opacity: .9;
+}
+
+.project-hover h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.project-hover p {
+    margin: 0;
+}
+
