@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300i,500,700,900');
+body {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BBB;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 autouto;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.main-menu {
+    text-align: center;
+    background-color: #A2C0EB;
+}
+
+.main-menu ul li a:hover {
+     color: #F16529;
+}
+
+.main-menu li:hover > a {
+    color: #F16529;
+}
+
+.main-menu li:hover li:hover>a {
+    background-color: #51C5F9;
+}
+
+.main-menu ul li ul {
+    position: absolute;
+    left: 0;
+    top: 65px;
+    background-color: #A2C0EB;
+    text-align: left;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    box-shadow: 0 5px 5px #F8F8F8;
+    z-index: -1;
+}
+
+.main-menu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    top: 59px;
+}
+
+.main-menu li ul li {
+    display: block;
+}
+
+.main-menu li ul li > a {
+    padding: 5px 10px;
+}
+
+.main-menu li.mega-menu {
+    position: static;
+}
+
+.mega-menu-wrapper {
+    background-color: #A2C0EB;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    padding: 20px;
+    box-shadow: 0 5px 5px #F8F8F8;
+    top: 66px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: -1;
+}
+
+.main-menu li.mega-menu ul {
+    position: relative;
+    left: auto;
+    top: auto;
+    opacity: 1;
+    box-shadow: 0 0 0;
+    z-index: -1;
+}
+
+.main-menu li.mega-menu:hover .mega-menu-wrapper {
+    top: 59px;
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+}
+.main-menu ul li.mega-menu:hover ul {
+    top: 0px;
+    z-index: 99;
+}
+
+.mega-menu-wrapper h5 {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    color: #547BC0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.mega-menu-wrapper  a.boxed-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #1975C5;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
