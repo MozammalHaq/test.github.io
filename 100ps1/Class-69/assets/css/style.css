@@ -544,9 +544,10 @@ textarea {
     background-color: #F2F1F1;
 }
 
+/*------------ stiky footer ----------------*/
 
 .site-menu-wrapper {
-    margin-bottom: 468px;
+    /*margin-bottom: 468px;*/
     z-index: 9999;
     background-color: #fff;
 }

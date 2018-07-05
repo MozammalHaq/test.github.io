@@ -35,35 +35,39 @@
             nav: true,
             navText: ["<i class='zmdi zmdi-arrow-left'></i>", "<i class='zmdi zmdi-arrow-right'></i>"],
         });
-        
+
         $(".menu-trigger").on('click', function(){
             $(".off-canvas-menu").addClass("show-off-canvas-menu");
             $(".off-canvas-menu-overlay").addClass("active");
         });
- 
+
         $(".menu-close, .off-canvas-menu-overlay").on('click', function(){
             $(".off-canvas-menu").removeClass("show-off-canvas-menu");
             $(".off-canvas-menu-overlay").removeClass("active");
         });
-        
+
         $(".single-testimonial-box").hover(function(){
             $(".single-testimonial-box").removeClass('active');
             $(this).addClass('active');
         });
-        
+
         $(".video-play-btn").magnificPopup({
             type: 'vedio',
         });
-        
+
         $(".search-trigger").on('click', function(){
             $(".search-area").addClass('active');
             $(".off-canvas-menu-overlay").addClass("active");
         });
-        
+
         $(".menu-close, .off-canvas-menu-overlay").on('click', function(){
             $(".search-area").removeClass('active');
             $(".off-canvas-menu-overlay").removeClass("active");
         });
+
+        var footerHeight = $(".footer-fixed").height();
+        $(".site-menu-wrapper").css('margin-bottom', footerHeight + 'px');
+
     });
 
 
