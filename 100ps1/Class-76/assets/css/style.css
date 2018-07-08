@@ -46,14 +46,9 @@ a:hover {
 .single-feature-item {
     position: relative;
     z-index: 1;
-    margin-top: 15px;
-    margin-bottom: 60px;
+    margin: 15px 30px 60px 55px;
     text-align: right;
-    padding-right: 170px;
-    padding-top: 23px;
-    padding-bottom: 21px;
-    margin-left: 55px;
-    margin-right: 30px;
+    padding: 23px 170px 21px 0;
 }
 
 .single-feature-item p {
@@ -90,6 +85,11 @@ a:hover {
     display: block;
     font-size: 60px;
     line-height: 120px;
+    transition: .3s;
+}
+
+.feature-icon i.fa:hover {
+    box-shadow: 0 0 10px #ddd;
 }
 
 .single-feature-item.left-icon {
