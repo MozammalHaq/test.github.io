@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:100,300,300i,400,400i,500,500i,700');
+body {
+    font-size: 15px;
+    color: #282829;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #282829
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.food-box-bg {
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ccc;
+    height: 350px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.food-bg-2 {
+    background-image: url(../img/bg-2.jpg)
+}
+.food-bg-3 {
+    background-image: url(../img/bg-3.jpg)
+}
+
+.food-box-info {
+    background-color: #F3F4F4;
+    text-align: center;
+    margin: 0 15px;
+    margin-top: -80px;
+    padding: 30px;
+    border-top: 3px solid #D19735;
+    transition: .3s;
+}
+
+.food-box-info h2 {
+    font-family: 'Mr De Haviland', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    transition: .3s;
+}
+
+.food-box-info h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #D19735;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.food-box-info p span {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.boxed-btn {
+    color: #D19735;
+    border: 1px solid;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    letter-spacing: 1px;
+}
+.food-box-info:hover {
+    background-color: #D19735;
+    color: #fff;
+}
+
+.food-box-info:hover h2 {
+    color: #FFFE00;
+}
+.food-box-info:hover h3, .food-box-info:hover a {
+    color: #FFF;
+}
