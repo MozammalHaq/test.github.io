@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300i,500,700,900');
+body {
+    font-size: 16px;
+    color: #646464;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.feature-1 .feature-bg, .feature-3 .feature-bg {
+    background-image: url(../img/bg-1.jpg)
+}
+.feature-2 .feature-bg, .feature-4 .feature-bg {
+    background-image: url(../img/bg-2.jpg)
+}
+
+.single-feature-item {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-bg {
+    position: absolute;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    bottom: -50px;
+}
+
+.single-feature-content {
+    background-color: #fff;
+    box-shadow: 0 0 5px #ddd;
+    padding: 30px;
+    padding-left: 110px;
+    padding-top: 60px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 3px solid #FD684B;
+}
+
+.feature-2 .single-feature-content {
+    border-color: #2CC893;
+}
+.feature-3 .single-feature-content {
+    border-color: #B079F6;
+}
+.feature-4 .single-feature-content {
+    border-color: #FCBA59;
+}
+
+.single-feature-content h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #333;
+}
+
+.feature-num {
+    position: absolute;
+    left: 25px;
+    top: 0;
+    z-index: -1;
+    font-size: 60px;
+    opacity: .3;
+}
+
+.feature-num::after {
+    position: absolute;
+    left: 55px;
+    top: 20px;
+    content: "";
+    background-color: #333;
+    width: 2px;
+    height: 80px;
+    opacity: .3;
+    transform: rotate(30deg);
+}
