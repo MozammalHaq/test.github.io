@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900&subset=cyrillic');
+body {
+    font-size: 15px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+
+}
+
+.testimonial-author-bg {
+    background-size: cover;
+    background-position: center top;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    right: -5%;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+.author-bg-1 {
+    background-image: url(../img/bg-1.jpg)
+}
+.author-bg-2 {
+    background-image: url(../img/bg-2.jpg)
+}
+.author-bg-3 {
+    background-image: url(../img/bg-3.jpg)
+}
+.author-bg-4 {
+    background-image: url(../img/bg-4.jpg)
+}
+
+.textimonial-wrap {
+    position: relative;
+}
+.testimonial-title {
+    position: absolute;
+    left: 10%;
+    top: 60px;
+    font-size: 63px;
+    color: #151515;
+    z-index: 2;
+}
+
+.testimonial-title span {
+    color: #fff;
+}
+
+.single-testimonial-caurosel {
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-text {
+    padding-top: 200px;
+    max-width: 40%;
+    margin-left: 10%;
+    line-height: 1.5;
+}
+
+.testimonial-author  {
+    color: #1C1C1C;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.testimonial-author span  {
+    color: #5D5D5D;
+    font-size: 80%;
+    display: block;
+    margin-top: 15px;
+}
+.testimonial-author i.fa {
+    color: #C7A05B;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonial-caurosel .owl-nav div {
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #C7A05B;
+    color: #fff;
+    transition: .3s;
+}
+.testimonial-caurosel .owl-nav div:last-child {
+    background-color: #fff;
+    color: #C7A05B
+}
+.testimonial-caurosel .owl-nav div:hover {
+    background-color: #820404;
+    color: #fff;
+}
+
+.testimonial-caurosel .owl-nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+}
