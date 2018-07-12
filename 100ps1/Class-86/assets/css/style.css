@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900');
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.styled-bg {
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    margin-left: -150px;
+}
+
+.right-side .styled-bg {
+    margin-left: 0;
+    margin-right: -150px;
+}
+
+.styled-bg:before {
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #F4F4F4;
+    z-index: -1;
+}
+.right-side .styled-bg:before {
+    right: -30px;
+    left: auto;
+}
+
+.styled-bg:after {
+    position: absolute;
+    right: 30%;
+    bottom: -60px;
+    width: 2px;
+    height: 90px;
+    content: "";
+    background-color: #D4B882;
+    z-index: 2;
+}
+
+.right-side .styled-bg:after {
+    left: 30%;
+    right: auto;
+}
+
+.styled-bg-inner {
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.styled-bg-1 {background-image: url(../img/bg-1.jpg)}
+.styled-bg-2 {background-image: url(../img/bg-2.jpg)}
+
+.section-content {
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 230px;
+}
+
+.special-section-title {
+    position: relative;
+    margin-left: -200px;
+    z-index: 2;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 30px;
+    padding-top: 25px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.right-side .special-section-title {
+    margin-right: -200px;
+    margin-left: auto;
+    padding-left: 0;
+    letter-spacing: 2px;
+}
+
+.inline-btn {
+    color: #000;
+    border-bottom: 3px solid #C6A361;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.inline-btn:hover {
+    color: #C6A361
