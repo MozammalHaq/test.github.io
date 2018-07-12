@@ -26,12 +26,12 @@ a:hover {
     height: 600px;
     position: relative;
     z-index: 1;
-    margin-left: -150px;
+    margin-left: -60px;
 }
 
 .right-side .styled-bg {
     margin-left: 0;
-    margin-right: -150px;
+    margin-right: -60px;
 }
 
 .styled-bg:before {
