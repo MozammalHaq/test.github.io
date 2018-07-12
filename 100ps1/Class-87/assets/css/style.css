@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300i,500,700,900');
+
+html,body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    color: #6B7178;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Asiyah Script';
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.caurosel-bg-1 {background-image: url(../img/bg-1.jpg)}
+.caurosel-bg-2 {background-image: url(../img/bg-2.jpg)}
+.caurosel-bg-3 {background-image: url(../img/bg-3.jpg)}
+
+
+.single-caurosel-item {
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.single-caurosel-item h1 {
+    font-size: 150px;
+}
+.boxed-btn {
+    display: inline-block;
+    background: #D8085E;
+    color: #fff;
+    padding: 10px 40px;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
+.homepage-slides div {
+    height: 100%;
+}
+
+.d-table-cell, .homepage-slides div.single-caurosel-item div, .homepage-slides .owl-dots, .homepage-slides .owl-dots div, .homepage-slides .owl-nav, .homepage-slides .owl-nav div {
+    height: auto;
+}
+
+.homepage-slides .owl-nav {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    line-height: 60px;
+    margin-top: -30px;
+    width: 100%;
+}
+
+.homepage-slides .owl-nav button.owl-prev {
+    margin-right: 80%;
+}
+
+
+.homepage-slides div.owl-dots img {
+    max-width: 80px;
+    margin-right: 10px;
+    border: 1px solid #fff;
+
+}
+
+.homepage-slides div.owl-dots {
+   position: absolute;
+    right: 15%;
+    bottom: 0;
+}
